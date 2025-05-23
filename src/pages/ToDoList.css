@@ -1,0 +1,12 @@
+/* Centralize the toDo list */
+.todoContainer {
+  max-width: 28rem;
+  margin: 2.5rem auto 0 auto;
+}
+
+/* Styling of the title */
+.todoTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

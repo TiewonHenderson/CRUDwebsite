@@ -1,0 +1,65 @@
+/* ToDo layout and general styling */
+.todoItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.todoContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoText {
+  font-size: 1rem;
+}
+
+.todoCompleted {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+.todoStatus {
+  font-size: 0.875rem;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Allows switching styles when changing status */
+.statusCompleted {
+  color: #10b981;
+  background-color: #d1fae5;
+}
+
+.statusPending {
+  color: #ff8400;
+  background-color: #fff3b9;
+}
+
+.todoActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+/* Button styling */
+.statusToggleButton {
+  background-color: #3b82f6;
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteButton {
+  background-color: transparent;
+  color: #ffffff;
+  background-color: #f63b3b;
+  border: none;
+  cursor: pointer;
+}
