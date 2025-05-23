@@ -1,23 +1,23 @@
 # **TODO LIST**
 
-This is a simple TODO List application that allows users to manage their tasks efficiently.
+This is a simple TODO List application that allows users to manage their ToDos efficiently.
 
 ---
 
 ## Features
 
-- Add new tasks
-- View all tasks
-- Update existing tasks
-- Delete tasks
+- Add new ToDos
+- View all ToDos
+- Update statuses of ToDos
+- Delete ToDos
 
 ---
 
 ## CRUD Operations Description
 
-- **Create**: Add new tasks to the list by entering a task description and submitting the form.
-- **Read**: View all the tasks currently in the list, displayed in an organized manner.
-- **Update**: Edit or mark tasks as completed to keep track of progress.
-- **Delete**: Remove tasks from the list when they are no longer needed.
+- **Create**: Add new ToDos to the list by entering a task description and adding.
+- **Read**:   View all the tasks currently in the list, displayed in order.
+- **Update**: Mark or unmark complete of specific ToDos.
+- **Delete**: Remove ToDos from the list when they are no longer needed.
 
 ---
